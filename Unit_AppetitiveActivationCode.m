@@ -1,7 +1,7 @@
 %% Unit_Appetitive_Activation.m
 % simulate GO_unit and STOP_unit 
 
-% ---------original activation diff. eq. from Interactive Race Model----- %
+% ---------original activation diff. eq. from Interactive Race Model----- % (Neutral cue type activation)
 % da (t) = [feedforward_input - decay + recurr_excitation - inhib_influences] + noise
 
 % ---------augmented activation diff. eq. from AADI-RM---- %
@@ -68,7 +68,7 @@ STOPnoise = 0;
 % Associative Memory Recall free param
 % LamdaGO & LambdaSTOP
 % Model lambda parameter value setting Appetitive-- LamdaGO >> LambdaSTOP. BetaGO >>  BetaSTOP -- associative bias
-% Model lambda parameter value setting Neutral-- LamdaGO = LambdaSTOP. BetaGO = BetaSTOP -- neutral
+
 
 % GO Unit Activation diff eq.
 GOUnit (trlen) = ((currActGO*GOunitActive + levelGo*GOunitActive))-(kGO*GOunitActive) - ...
