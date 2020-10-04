@@ -1,0 +1,16 @@
+%% Gaussian 2D Function 
+function [probability_density] = gauss2D(sig_x,sig_y,X,Y)
+%Inputs to the gauss 2D function includes the X and Y matracies of the
+%meshgrid [X,Y] created using the built in function meshgrid
+
+[probability_density] = 1/(2*sig_x*sig_y*pi)*exp(-X.^2/(2*sig_x^2) - Y.^2/(2*sig_y^2));
+%The 2D Gaussian Multivariate Normal Distribution Equation
+
+figure
+imagesc(probability_density)
+title ('Figure:2. 2D Probability Density Function')
+xlabel('x-axis')
+ylabel('y-axis')
+
+end
+
