@@ -37,9 +37,17 @@
 % For guidance on parameter variations tested in the paper see top
 % instructions in the Unit_AppetitiveActivationCode.m script file 
 % for the augmented diff. eqs. 
-% ======================================================================
+% ======================================================================%
 
+% ======================================================================%% ======================================================================%
 
+% Note: The Unit_AppetitiveActivationCode.m script was added by Nilosmita Banerjee
+% to the original code written and provided by Boucher et.al., (2007) [(C) Boucher et.al. (2007)]
+% All files/scripts from the original code provided Boucher et.al., (2007) for the
+% base Interactive Race Model remain unchanged. The Unit_AppetitiveActivationCode.m script code
+% is the new addition to the model proposed in the paper - 
+% “Modelling Appetitive Disinhibition in Modified Stop Signal Task—A Computational model of Associative Memory initiated Going (Disinhibition) System”
+% ======================================================================%% ======================================================================%
 
 
 
