@@ -47,6 +47,10 @@
 % base Interactive Race Model remain unchanged. The Unit_AppetitiveActivationCode.m script code
 % is the new addition to the model proposed in the paper - 
 % “Modelling Appetitive Disinhibition in Modified Stop Signal Task—A Computational model of Associative Memory initiated Going (Disinhibition) System”
+% Find Research Paper here: 
+% https://www.researchgate.net/publication/346718359_Modelling_Appetitive-Disinhibition_in_Modified_Stop-Signal_Task-A_Computational_model_of_Associative_Memory_initiated_Going_Disinhibition_System
+
+
 % ======================================================================%% ======================================================================%
 
 
